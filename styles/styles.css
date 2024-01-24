@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,300&display=swap');
 
 body {
     /*margin: 0;*/
@@ -12,10 +12,139 @@ p {
 }
 
 .wrapper {
-    padding-top: 15px;
+
 }
 
+
+
+/* header section */
+
+/* use flex-wrap, flex: 1 or width, margin? */
+
+.header {
+    display: flex;
+    flex-direction: column; /* changed direction of flex */
+    justify-content: center;
+    align-items: flex-start; /* aligned nav */
+    background-color: #1F2937;
+    min-width: 100vh;
+    padding-bottom: 100px;
+}
+
+.header-logo { /* div that has navigation */
+    margin-left: 109px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    /* aligned logo and links to center */
+    flex-wrap: wrap;
+    padding-top: 90px;
+    width: 60%;
+}
+
+.header-section { /* div that has two divs */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-direction: row; /* can be removed */
+    /* flex row */
+    padding-top: 75px;
+    margin-top: 30px;
+    padding-bottom: 31px;
+    /* max-width: 750px; */
+    /*width: 50%;*/
+}
+
+.box { /* div with hero text */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    align-self: center;
+    flex-basis: 34%;
+    /*width: 35%; */
+    height: 237px;
+
+}
+
+.header-hero {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+}
+
+.header-description {
+    padding-right: 55px; /* !!! */
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: white;
+}
+
+.header-image { /* div with image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.header-image img {
+
+    max-width: 100%;
+    /* Ensure the image doesn't exceed its container */
+    width: 523px; /* ? */
+    height: 237px;
+}
+
+/* it's all good below */
+
+
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+}
+
+.header-nav {
+    margin-right: 109px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: white;
+}
+
+
+
+
+
+.header-nav ul {
+    list-style: none;
+}
+
+.header-links {
+    display: flex;
+    gap: 30px;
+}
+
+.header-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* information section */
+
 .heading-info {
+
+    margin: 0;
+        /* just added */
+    padding-top: 47px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
@@ -23,7 +152,7 @@ p {
 }
 
 .information {
-    padding-top: 16px;
+    padding-top: 47px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,6 +161,7 @@ p {
 }
 
 .image-info {
+
     display: flex;
     flex-basis: 160px;
     flex-direction: column;
