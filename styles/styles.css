@@ -83,6 +83,23 @@ p {
     font-size: 18px;
     font-weight: 100;
     color: white;
+    padding-bottom: 10px;
+}
+
+.header-button {
+        text-decoration: none;
+        border: 0.2px solid #000;
+        color: white;
+        width: 23%;
+        background: #3B82F6;
+        padding: 8px;
+        border-radius: 8px;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+        font-weight: 800;
+        color: white;
+        font-style: bold;
 }
 
 .header-image { /* div with image */
