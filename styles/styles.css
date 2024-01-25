@@ -122,7 +122,7 @@ p {
 
 
 
-.logo {
+.logo, .call-heading {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: 800;
@@ -243,7 +243,60 @@ p {
     justify-content: flex-end;
 }
 
+/* call section */
 
+.call-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: #D0DAEC;
+}
+
+.call {
+    padding-top: 101px;
+    padding-bottom: 101px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.call-banner {
+    border-radius: 8px;
+    padding-top: 56px;
+    background-color: #3B82F6;
+    padding-bottom: 60px;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.call-title {
+display: flex;
+flex-direction: column;
+}
+
+.call-button {
+display: flex;
+}
+
+.call-button > a {
+    text-decoration: none;
+    border: 2px solid white;
+    color: white;
+    /* width: 23%;*/
+    background: #3B82F6;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+    color: white;
+    font-style: bold;
+}
 
 
 
