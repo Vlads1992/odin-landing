@@ -22,27 +22,32 @@ p {
 
 /* use flex-wrap, flex: 1 or width, margin? */
 
+.header-wrapper {
+    background-color: #1F2937;
+}
+
 .header {
     display: flex;
     flex-direction: column; /* changed direction of flex */
     justify-content: center;
     align-items: flex-start; /* aligned nav */
-    background-color: #1F2937;
     min-width: 100vh;
     padding-bottom: 100px;
+        max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
 }
 
 .header-logo { /* div that has navigation */
     margin-left: 109px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-self: center;
-    /* aligned logo and links to center */
     flex-wrap: wrap;
     padding-top: 90px;
-    width: 60%;
+    width: 92%;
 }
 
 .header-section { /* div that has two divs */
@@ -50,13 +55,11 @@ p {
     justify-content: center;
     align-items: center;
     align-self: center;
-    flex-direction: row; /* can be removed */
-    /* flex row */
+    flex-direction: row; 
     padding-top: 75px;
     margin-top: 30px;
     padding-bottom: 31px;
-    /* max-width: 750px; */
-    /*width: 50%;*/
+
 }
 
 .box { /* div with hero text */
@@ -65,7 +68,7 @@ p {
     justify-content: flex-start;
     /* align-items: center; */
     align-self: center;
-    flex-basis: 34%;
+    flex-basis: 41%;
     /*width: 35%; */
     height: 237px;
 
